@@ -1,0 +1,18 @@
+import java.io.*;
+import java.util.*;
+import java.text.*;
+import java.math.*;
+import java.util.regex.*;
+
+public class Solution {
+
+    public static void main(String[] args) {
+     Scanner sc=new Scanner(System.in);
+         float s=sc.nextFloat();
+        System.out.printf("%.6f\n",s);
+         System.out.printf("%.4f\n",s);
+         System.out.printf("%.2f\n",s);
+          System.out.println((int)Math.round(s));
+        
+    }
+}
